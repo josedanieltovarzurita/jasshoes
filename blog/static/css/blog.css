@@ -5,3 +5,8 @@ body {
 .card-col {
 	margin-bottom: 20px;
 }
+
+input#id_title, input#id_price, input#id_ref {
+	border-radius: 10px;
+	border-color: rgba(0,0,0,0.6);
+}
