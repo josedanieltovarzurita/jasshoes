@@ -9,8 +9,8 @@
 				  <img class="card-img-top" src="https:/placehold.it/400x250" alt="Card image cap">
 				  <div class="card-block">
 				    <h4 class="card-title">{{ post.title }}</h4>
-				    <p class="card-text">$ {{ post.price }}</p>
-				    <a href="#" class="btn btn-primary">Ver Producto</a>
+				    <p class="card-text">${{ post.price }}</p>
+				    <a href="{% url 'post_detail' pk=post.pk %}" class="btn btn-primary">Ver Producto</a>
 				  </div>
 				</div>
 			</div>
